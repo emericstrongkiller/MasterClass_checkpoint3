@@ -11,7 +11,7 @@ public:
   std::vector<std::string> Get_variables();
 
 private:
-  std::string hydraulic_oil_temperature = "25°";
+  std::string hydraulic_oil_temperature = "25C";
   std::string hydraulic_oil_tank_fill_level = "95%";
   std::string hydraulic_oil_pressure = "150 000 bars";
 };
